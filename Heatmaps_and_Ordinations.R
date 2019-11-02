@@ -190,7 +190,7 @@ physeqobj.meta <- merge_phyloseq(physeqobj,metadata.smpdat)
 
 ### prevalence filtering according to supplementary of McMurdie & Holmes (2104)-
 ## prevalence = (fraction of samples in which an OTU is observed minimum 1 time)
-minobs=1
+minobs <- 1
 prevalence <- apply(as.matrix(shared.t.ns),1,
                     function(x,minobs){sum(x>=minobs)},minobs)/ncol(shared.t.ns)
 prevalencefilter <- prevalence>0.05

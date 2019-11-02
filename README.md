@@ -6,7 +6,7 @@ Repository for data analyses scripts of Hu *et al.* (2019)
 Script Filename | Content 
 ---------|----------
 Heatmaps_and_Ordinations.R | main script for drawing multiple heatmaps and ordination plots
-DataLoader.R | separate script to preload and wrangle the data for DE_testing.R
+DataLoader.R | separate script to preload and wrangle the data for DE_testing.R (is included in `Heatmaps_and_Ordinations.R`)
 DE_testing.R | DESeq2 differential abundance testing, knitr spin compatible
 
 ## Dependencies

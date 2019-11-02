@@ -15,7 +15,6 @@ library(knitr)
 library(ggplot2)
 library(gtools)
 library(scales)
-library(extrafont)
 library(ggthemes)
 #font_import()
 loadfonts(device = "win")
@@ -33,7 +32,8 @@ absconc.relab <- read.csv("Source_Data/Xiaona_absolute_counts.csv")
 #+ spacer
 
 #' # Loading & preformatting the data
-#' First, all data was loaded and preformated/filtered in different ways for comparative purposes.
+#' First, all data was loaded and preformated/filtered in different ways for 
+#' comparative purposes.
 
 #+ dataloader, fig.width=6, fig.height=7, cache=T
 #### load the data ####
